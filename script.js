@@ -10,8 +10,8 @@
     const now = new Date();
     const diff = target - now;
     if(diff <= 0){ 
-      daysEl.textContent = '00';
-      hoursEl.textContent = '00';
+      daysEl.textContent = '1';
+      hoursEl.textContent = '24';
       minsEl.textContent = '00';
       secsEl.textContent = '00';
       return; 
